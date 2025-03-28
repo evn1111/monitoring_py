@@ -1,9 +1,8 @@
 # monitoring_py
 Как использовать:
 
-Установите зависимости: pip install psutil requests
-Настройте конфигурацию в начале скрипта (SLACK_WEBHOOK_URL, пороги срабатывания)
-Добавьте скрипт в cron для регулярного выполнения: crontab -e
-Copy
+1. Установите зависимости: pip install psutil requests
+2. Настройте конфигурацию в начале скрипта (SLACK_WEBHOOK_URL, пороги срабатывания)
+3. Добавьте скрипт в cron для регулярного выполнения: crontab -e
 */5 * * * * /path/to/your/script.py
-Для работы Slack-уведомлений нужно создать Incoming Webhook в настройках Slack
+4. Для работы Slack-уведомлений нужно создать Incoming Webhook в настройках Slack
